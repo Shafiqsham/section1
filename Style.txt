@@ -1,0 +1,83 @@
+div[class="img"]{
+float: left;
+width: 40%;
+font-family: Arial;
+}
+
+div[class="input"]{
+  width: 100%;
+  font-family: Arial;
+}
+
+div[class="logo"]{
+  margin-top: -100px;
+  float: right;
+  width: 40%;
+  font-family: Arial;
+}
+
+div[class="privacy"]{
+  margin-top: 400px;
+}
+
+hr {
+width: 75px;
+margin-left: 200px;
+margin-right: 200px;
+height: 4px;
+background-color:#00918e;
+opcaity: 0.5;
+}
+
+#river{
+clip-path: polygon(90% 50%, 0% 0, 0% 100%);
+}
+
+#download{
+  font-size: 25px;
+
+  color: purple;
+  text-decoration: underline;
+}
+
+#privacy{
+  color: #00918e;
+  text-decoration: none;
+}
+
+#disclaimer{
+  color: #00918e;
+  text-decoration: none;
+}
+
+h2{
+  font-family: Arial;
+  font-size: 170%;
+}
+
+label{
+  font-family: Arial;
+}
+
+label[for="Login"]{
+  font-weight: bold;
+  font-size: 150%;
+}
+
+input[type="text"]{
+  padding:6px 93px;
+}
+
+input[type="text"]::placeholder{
+  text-align: left;
+}
+
+input.checkbox{
+  width: 15px;
+  height: 15px;
+}
+
+
+button{
+  padding: 10px 150px;
+}
